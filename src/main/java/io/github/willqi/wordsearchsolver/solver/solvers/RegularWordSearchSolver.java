@@ -11,6 +11,12 @@ import java.util.Optional;
  */
 public class RegularWordSearchSolver implements Solver {
 
+    protected final char[][] board;
+
+    public RegularWordSearchSolver (char[][] input) {
+        board = input;
+    }
+
     @Override
     public Optional<Pair<Integer, Integer>> find(String word) {
         return Optional.empty();
