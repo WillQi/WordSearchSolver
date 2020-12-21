@@ -7,7 +7,10 @@ But why waste time finding it ourselves when we can automate it? `WordSearchSolv
 
 ## Usage
 
-`TODO`
+- Download the latest jar file from [Releases](https://github.com/WillQi/WordSearchSolver/releases)
+- Create a word search text file that replicates the word search, but with no spaces
+- Create a word list text file that has each word you are trying to find on a different line
+- `java -jar ./WordSearchSolver-1.0-SNAPSHOT.jar -ws pathToWordSearchFile -wl pathToWordListFile`
 
 ## Contributing
 
